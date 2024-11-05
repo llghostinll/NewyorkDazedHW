@@ -1,0 +1,1622 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.19f1 (244b723c30a6) revision 2378610'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16215 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/randy/Desktop/Game design/NewYorkDazed
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64352
+Successfully changed project path to: C:/Users/randy/Desktop/Game design/NewYorkDazed
+C:/Users/randy/Desktop/Game design/NewYorkDazed
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [37412] Host "[IP] 26.10.46.241 [Port] 0 [Flags] 2 [Guid] 497536876 [EditorId] 497536876 [Version] 1048832 [Id] WindowsEditor(7,GhostBox) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [37412] Host "[IP] 26.10.46.241 [Port] 0 [Flags] 2 [Guid] 497536876 [EditorId] 497536876 [Version] 1048832 [Id] WindowsEditor(7,GhostBox) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 30.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.19f1 (244b723c30a6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/randy/Desktop/Game design/NewYorkDazed/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.6590
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.019272 seconds.
+- Loaded All Assemblies, in  1.317 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.682 seconds
+Domain Reload Profiling: 1992ms
+	BeginReloadAssembly (552ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (115ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (217ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (378ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (381ms)
+			TypeCache.Refresh (378ms)
+				TypeCache.ScanAssembly (340ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (684ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (537ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (20ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (376ms)
+			ProcessInitializeOnLoadMethodAttributes (116ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.674 seconds
+Refreshing native plugins compatible for Editor in 11.71 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.630 seconds
+Domain Reload Profiling: 3292ms
+	BeginReloadAssembly (387ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (1031ms)
+		LoadAssemblies (745ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (504ms)
+			TypeCache.Refresh (446ms)
+				TypeCache.ScanAssembly (397ms)
+			ScanForSourceGeneratedMonoScriptInfo (42ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1631ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (161ms)
+			ProcessInitializeOnLoadAttributes (956ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 13.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3472 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (114.0 KB). Loaded Objects now: 3935.
+Memory consumption went from 137.0 MB to 136.8 MB.
+Total: 8.069500 ms (FindLiveObjects: 0.550900 ms CreateObjectMapping: 0.769700 ms MarkObjects: 6.513300 ms  DeleteObjects: 0.233200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 172610.998800 seconds.
+  path: Assets/resources/New Material.mat
+  artifactKey: Guid(0249be66788ac6045981b19777d99886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/resources/New Material.mat using Guid(0249be66788ac6045981b19777d99886) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5269f742262c6910f136ae9f6ce1b871') in 0.230186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 94.686906 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5cc602ed82c5b90fc3314fb733c3614') in 0.019274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 21.588091 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32ca05615ac555ca81149c0f178322d') in 0.095402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.358070 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a99899c44dd7e4ef1c70fe595149775') in 0.005996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 8.895338 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba0772b9ca81f93cab5dea5a17a455cc') in 0.005455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.456868 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c23e82126ba18c417372f50fe0d9db') in 0.007229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 13.577725 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a1995dffd5f129aea83e178eadc4fe') in 0.004900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.689893 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c8da83e921b932623df7f358d6b308d') in 0.005148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.000065 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187926843ca63fab68de5ef9ea39c4b8') in 0.006214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.454042 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4913fa90b749de84248dd8998c703f2f') in 0.005134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 18.477913 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3c5873affbf32aeae7156cfc43f3cf') in 0.005819 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 11.748329 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d6ff94d515ccd46667138f72448130') in 0.005126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.628809 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d2faf4d8abcab3b31c75fdecdb8729') in 0.005696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 30.951293 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138788c4d6765f2dc3769fcccb53b5b2') in 0.031817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.286559 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37cf456ee739dee7878dfa2b8739eea4') in 0.005030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.255450 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c9072c0dafb13712a89adcf0756461') in 0.006418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.203515 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78ece96ac7e4a49409372f2c8a018bf') in 0.007085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 44.706802 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca069a7a3152ea3471968b2ef834854') in 0.006820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.038620 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5e12eec54f57ed0851eec3c95d46e2') in 0.005285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.802388 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689040e0ee2fc18fa5499c52f5febcf6') in 0.005701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 3.046005 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c415e7af177e278fe287e8957a4f6ad5') in 0.005352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 8.096758 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba0c6cad4bb78749f6a39e044e4c69a') in 0.004655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.898560 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac0f98ae3eb72aa35e1014a3c37a864') in 0.005393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.415498 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3e8e5136caf34f322b7893aecd96a3') in 0.005996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 1.200408 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a28953e2d835892196caeb3e215267a') in 0.005470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.435080 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce30ab18bff68feb9d2b68bc0f5668b1') in 0.008518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.240466 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05a81ef8a4f1aae1db5c9f7ff07bf82f') in 0.006541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.001977 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6addb21ad2c5f8b7069831d63e8e8482') in 0.006248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 6.083255 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34abc2acb747ecb176fda8118d25ef57') in 0.006501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 8.130210 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f25cee7d4e4bd56994a3d347458fa7f2') in 0.006767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.421321 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7162d0d1e3ae103887fcd6fe231ea8b7') in 0.006154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.033441 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13a2f46657f26e7a6af4b53c92adf429') in 0.006880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 9.172674 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ab020e6270b2c53cf74537ca142e47') in 0.006513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.643959 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832126a1ee1d4294dc1b4a0fc0583c23') in 0.008720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 6.491527 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7715a8bb9c83de3c0d5b1239ab4abd60') in 0.006703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.815850 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '487cbf8223b5ecfab3550237815310dc') in 0.006588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.026309 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078bc5c85dabff7a95bc16f37c154774') in 0.006473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 14.425611 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2960dc35cf7b87534fe1b2403b185457') in 0.006311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 8.509815 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcd9373cb0ca73bf160f4dc9c043864') in 0.006563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.243135 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4aefb2e0db1ff8bc183fab36fe697d') in 0.006090 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.009544 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a539dfd68402f81a63c1767f6927e4c') in 0.006474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.956453 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '490e3db47b6e307a783978577794cc82') in 0.006816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.077824 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011d004f62cd737dfd8af67a73c1f291') in 0.006997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.595989 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06fdaa28ac0ed6def7f915dffbf769e') in 0.006657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.083923 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c814cca3c042187d6e16e804ace8d198') in 0.006731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.473161 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d4b0c89aeef1c4587f281f70d744f9') in 0.006647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.999265 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f97b5a38769410c1e69947ce00a234') in 0.007815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.404477 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48c6ec0c94ae3608c553bd60f441b9b') in 0.006626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.067306 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0aeea0789246829f55c1c641339d479') in 0.006092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.653535 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5709671ce35dbdbf435f4ff253f54724') in 0.006468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 33.601465 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '081aef955e03219d1ed6645b408aeac9') in 0.008674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.595075 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a378f080ebfa7c7409273cbf253a4e9c') in 0.006282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.823091 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05bc82c22dc02547738fd4cd0f2d518b') in 0.006257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.636402 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700fc14d72763e58f63f4eb57a942442') in 0.007188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.797510 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd8e40a79c0929b6c0960b013442a44') in 0.007201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.604368 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5b955d87fac1044dccaba9417096db') in 0.007406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 21.244766 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1b6d9b00edf57514c40da5248c2af8') in 0.006633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.660546 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278a9d351665229e3cebb738e87d2efb') in 0.006794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.806708 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761080e3db1ef77c3b56274e643780dc') in 0.007267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.794039 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8591941995af0bd568e50e05633c43') in 0.006423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.834953 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48ae758dc65995eb2ba709f60ed218f') in 0.008932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.847322 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6741fd7985770ce0890d81e23ab04d') in 0.006620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.412672 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d9d2dcde8e55459480675a77fb47a7') in 0.006585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.886369 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430cde453e35e2cab8da8aab58399c18') in 0.006624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.447069 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba818499d172e3e9eaaa9b76c04485c3') in 0.006967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.998251 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5842f79bd53ffbd419d708f5b98de26') in 0.006959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.038327 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1436f773876d8a337df6809bff739b5e') in 0.006825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.209007 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09fcada833bdfcef4c47da540f80bc16') in 0.007009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 6.734592 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f618a7bcbb7f95ad5b5d4fdf0ef007c') in 0.006212 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.225573 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb8e9003c2284f5374054cf5a24daffe') in 0.007768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.595307 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d1c585e6c596889effb284be638b2e') in 0.024695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.620352 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28c7f756f36a74f780d59e837f2dfeae') in 0.007010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.036621 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3365aa419c5ba41f98bc40d8bb8da554') in 0.006684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 10.740029 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbd34dc0b8653bd0a347f28aaa13cea') in 0.009921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.960026 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5995a4fe8b7248d3fa27e19a2c30d601') in 0.005820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.250724 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4a021d87192467a959621abf39d848') in 0.007810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.221448 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24f5df3ce5e98c5a6c9af49d6638d5c8') in 0.008480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.270168 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6d1166b370ffff7c3b8f8abd47f5db') in 0.007077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.803036 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e40188052b593e49429e25a8b534e06') in 0.006308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.035971 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a1e670d5c525f1ad8b4101c132672c6') in 0.012449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.393695 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfff7a32e206291e8eb7a5e9a237782') in 0.009752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.028434 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a60c257eeb6f701c8110f6089c668531') in 0.008659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 3.639677 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f22e49d27f94e84272f6375ccd12c9') in 0.009534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 2.015712 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bf0ad091baea756b1427c30c325a0a') in 0.012574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.395593 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa795de6f519d8fbb07bd505912c4fbf') in 0.006766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 4.455809 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252be2e5a40e88cde6076390876fc25b') in 0.012129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 11.952019 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8490a703de59daa77b1cadddf538a8f3') in 0.006535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.612695 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facf239ee8ead5d1e05a69d70a956415') in 0.020635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 28.482966 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaebdca450bd5ee7028a404250d9389a') in 0.006684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 5.148988 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34fc01f6a7d280be340dba7de4fd92f9') in 0.006713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.262853 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8eb76b41a0bee3c3b85b891a7fb53d') in 0.005808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 17.422021 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe0ecb51b1d9b2bb263167e33d24c63') in 0.005169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.196941 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db090837fe2155140abf0f1bb08079fe') in 0.006411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.224064 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58938ccb7df24fc35e538ddc3d35031a') in 0.006094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 1.007009 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c25c0c461084df770c68761c04d0e7e') in 0.006511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.192599 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded35d308f9b9d39a2daffad963c8d4f') in 0.006615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.223643 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a6bc1b71c946a2887a4b73e65ad847') in 0.006026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.221292 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '823926f40c170a6cb28c236d31dd3816') in 0.006131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.199158 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e05ec099f660e10fdab6f31bf7c06207') in 0.006666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.194797 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5557c0f39d169afbba24493da2b8b524') in 0.006693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.230697 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbda8f3a36e3c851aed622bcf2fd4c4') in 0.006188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.219717 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cedf2c8cf144465ec9879d36a80cf3a1') in 0.006249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.194619 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df48d7186ca2719ed2abe332126d9505') in 0.006538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.198733 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd05f9c6f6bd67cc4926a67a5d04b8cb3') in 0.005186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.188843 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9972395dbac3765f8cd75c03abee4e') in 0.005041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.822354 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afb92fc5e292b576765af02ed2d8940') in 0.007024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.410369 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a74b9fccc62f2036ac17cfb51fd66c6') in 0.007546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.392602 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606ce1e24e6d71c76ca0221d0d4d5ce9') in 0.005970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.203092 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afdf21b058105a83a3eca544061c45e') in 0.005475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.230893 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd51d87e5f195c898b797eeb1787f6d0') in 0.006202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.175375 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edb63090c209cf2096e10a1eb3fccd7') in 0.006322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.225622 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0f2ebecc75adaceb0a1eeab80d1569') in 0.005942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.200458 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ec66dac62875ddc15d15d3e1a5f21e') in 0.012500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.208287 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62b9dc538b6f49b6ef12971a477f8f87') in 0.007493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.378123 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf7325d68de1e57758fc67304004958') in 0.006143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.195091 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c37aaec032d448f721e8a21444aa38') in 0.008872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.397551 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf9ec3c49bf9f8cd7794792cee14484') in 0.006227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.198041 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f10201a7f1140a9080cecde066e8272') in 0.006678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.188074 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3496c7c773355d6212c031e1b53649') in 0.007771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.214512 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98376c685b225e4e6d399cad0fc8d691') in 0.006247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.610596 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f886092bdfc68ea0357686b1eb432ec') in 0.006606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.190314 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adbbc5ca1085d14e7b7575a27674f63e') in 0.005881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.221544 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dc460cfe67fc0725d6671f6ae76704') in 0.005747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.599095 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da245f074d66bc1389f8f3c6a7eaf00') in 0.006418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.193360 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d6622dce1f357ddf95e3e19975557c7') in 0.006731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.216655 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cc733b36d68d3d4d52f739791630fb') in 0.006313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.236937 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e6657c44de695d1bb258684e837aba') in 0.006262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.215599 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a819284e5e6d24a23bc3fa26d8693b5b') in 0.006404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.189904 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccac97a3959df6402e99632ba723bb27') in 0.006172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.614391 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028d9036ccbf17d5421ffe0b7e74688d') in 0.006573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.195117 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5baf2d516113966e4d309c1d73a87b') in 0.006612 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.217969 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519daaa04900f6d41441d61e5b3625ec') in 0.006859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.200771 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b086714776e14e4da89ba7cd8f838b63') in 0.006978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.255034 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e09ef6544ad1ed2823a342c80ce59b') in 0.006434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.196056 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a19d0dfc1119accb8a1a7002015bbc23') in 0.006093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.249141 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30eee8ac98b402b642bb9c08bd6a9c91') in 0.006539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.196861 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbcc9e59086517ae45e98c5f85c710a') in 0.009756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.394184 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7553ff054844c3f701191cd1c4fa0a33') in 0.008489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.197283 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa16c454f7e331aa61d3d2155a1189a') in 0.006454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.198807 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7bbc994f07025df3ef52eeb9e12415f') in 0.006173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.201337 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fbbd28a3026e15befb06a01af6016d') in 0.007167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.191199 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b3f7fd8f1c514e267bb7e1a390ba2cb') in 0.005892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.199386 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7481252f5d7f551980213f478fd1bc34') in 0.006252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.195384 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4206d194a4f9fc483459f29527a0dea') in 0.005666 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.197259 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1d6580679b591b1dfe208467717f744') in 0.006219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.197819 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af88eae65c994fdffd7ce0efb514b43') in 0.007505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.195259 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b463622587a0243761c090a6b053b41') in 0.007759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.645207 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5b0522f63313136a664c7dd0de8596') in 0.004981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.206527 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f71e5eb026cb9a82b6e736685b2207') in 0.005813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 2.035579 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90e4dd5b192e1bd40ab4b06d80980d12') in 0.005579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.404265 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f73bb7d2bb312cf55dadb879682f3e9') in 0.005496 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 5.070984 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5fbe7616d12357aba9a262443cb0d4') in 0.004766 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.602665 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb5de3ac3107c163c9fd7d4781fbfb1') in 0.005942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.194863 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363f51f8f47b7fe82022cfc1e7638d43') in 0.005471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.421384 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e82772ee6eb021ed9caca58156f29d') in 0.005123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.731099 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3975b7f7f258b502d24fdc3a15d2dc60') in 0.005450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.594066 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb9d6a4e35500f4d909e4bad0805b339') in 0.006111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 6.786011 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c692819313d14b0ddb28179a17405d3') in 0.005333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.208311 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd77fa7fe7185f02b038dde192ab421b7') in 0.005515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.196312 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454f7d8d5548b69c567fcd235be0ef2c') in 0.005515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.990765 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab942e11e106529f8030192fd796d66') in 0.005519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 61.314945 seconds.
+  path: Assets/ProBuilder Data/Default Material Palette.asset
+  artifactKey: Guid(4ff3a344f558451418c47d9b65ee3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data/Default Material Palette.asset using Guid(4ff3a344f558451418c47d9b65ee3d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2073727642834dc4fb6b803ba462b6') in 0.004304 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 44.792362 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ee7ccbb509e1644c1f9379911124b5') in 0.038150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.398 seconds
+Refreshing native plugins compatible for Editor in 14.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  5.202 seconds
+Domain Reload Profiling: 6583ms
+	BeginReloadAssembly (376ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (249ms)
+	LoadAllAssembliesAndSetupDomain (632ms)
+		LoadAssemblies (804ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (41ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (5203ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (1070ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (34ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 23.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3445 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (85.9 KB). Loaded Objects now: 3980.
+Memory consumption went from 138.4 MB to 138.3 MB.
+Total: 11.143200 ms (FindLiveObjects: 0.620900 ms CreateObjectMapping: 0.773400 ms MarkObjects: 9.555300 ms  DeleteObjects: 0.191800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.628 seconds
+Refreshing native plugins compatible for Editor in 19.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  7.578 seconds
+Domain Reload Profiling: 9166ms
+	BeginReloadAssembly (522ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (29ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (860ms)
+		LoadAssemblies (1146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (47ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (7579ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1515ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (229ms)
+			ProcessInitializeOnLoadAttributes (1172ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 11.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3446 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (69.9 KB). Loaded Objects now: 3983.
+Memory consumption went from 140.5 MB to 140.4 MB.
+Total: 9.361000 ms (FindLiveObjects: 0.957800 ms CreateObjectMapping: 1.365600 ms MarkObjects: 6.804200 ms  DeleteObjects: 0.230000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 758.275864 seconds.
+  path: Assets/prefab/Train.prefab
+  artifactKey: Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefab/Train.prefab using Guid(30b4bb0f899a6e245a75ea20f6f40c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be20c420dccc8974b44ee12d92a458a6') in 0.396213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
